@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+body {
+  background-image: url("Pictures/Back1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: "TikTok Sans", sans-serif;
+}
+
+
+.customDiv {
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  padding: 1.5rem;
+}
+
+.edit-form-wrapper,
+.placeholder-card {
+  /* min-height: 550px; */
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.background2 {
+  width: 100%;
+}
+
+.btn1 {
+  color: white;
+  background-color: rgb(255, 0, 0);
+  border-radius: 20px;
+  font-size: 16px;
+  height: 40px;
+  border: none;
+  width: 100%;
+}
+
+.btn {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.txt {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(251, 70, 70);
+  text-decoration: underline;
+}
+
+.table {
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  background-color: transparent;
+  color: #000000;
+  vertical-align: middle;
+}
+
+.table thead th {
+  color: rgb(251, 70, 70);
+
+}
+
+.table-hover tbody tr:hover {
+  background-image: linear-gradient(to right,
+      rgb(255, 0, 0) 0%,
+      rgb(255, 152, 152) 50%,
+      rgb(255, 152, 152) 50%,
+      white 100%);
+  color: #000 !important;
+}
+
+.btn2 {
+  background-color: white;
+  color: rgb(255, 0, 0);
+  border: none;
+  font-size: 16px;
+}
