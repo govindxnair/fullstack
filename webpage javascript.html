@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Pictures/signup.png">
+    <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="webpageresponsive.css">
+    <title>Destiny Sign Up</title>
+    <style>
+        body {
+            background-image: url("Pictures/Back1.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="customDiv col-10 mx-auto d-block mt-5">
+                <div>
+                    <div class="destiny">Destiny</div>
+                    <div class="lets" style="margin-top: 200px;">Let's Kick Now!</div>
+                    <div class="its">Its easy and takes less than 30 seconds.</div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="background2 col-10 mx-auto d-block">
+                            <div class="text-center mt-4"><span class="signup">SIGN UP</span></div>
+
+                            <form id="registrationForm" class="col container">
+                                <div class="row">
+                                    <div class="col">
+                                        <label class="form-label">Name</label>
+                                        <input id="fullName" type="text" class="form-control form-control-sm"
+                                            placeholder="Enter your full name">
+                                    </div>
+                                    <div class="col">
+                                        <label class="form-label">Position</label>
+                                        <select id="position" class="form-select form-select-sm">
+                                            <option selected value="">Select Position</option>
+                                            <option>Software Engineer</option>
+                                            <option>Data Scientist</option>
+                                            <option>Product Manager</option>
+                                            <option>UX Designer</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label class="form-label">Email</label>
+                                        <input id="email" type="email" class="form-control form-control-sm"
+                                            placeholder="Enter your email">
+                                    </div>
+                                    <div class="col">
+                                        <label class="form-label text-nowrap">Phone No</label>
+                                        <div class="input-group input-group-sm">
+                                            <button id="countryCode" class="btn btn-outline dropdown-toggle border"
+                                                type="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false">+91</button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">+1</a></li>
+                                                <li><a class="dropdown-item" href="#">+44</a></li>
+                                                <li><a class="dropdown-item" href="#">+61</a></li>
+                                            </ul>
+                                            <input id="phone" type="text" class="form-control"
+                                                aria-label="Text input with dropdown button" maxlength="10">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label class="form-label">Country</label>
+                                        <input id="country" type="text" class="form-control form-control-sm"
+                                            placeholder="Enter your country">
+                                    </div>
+                                    <div class="col">
+                                        <label class="form-label">City</label>
+                                        <input id="city" type="text" class="form-control form-control-sm"
+                                            placeholder="Enter your city">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label class="form-label">Password</label>
+                                        <input id="password" type="password" class="form-control form-control-sm"
+                                            placeholder="Enter your password">
+                                    </div>
+                                    <div class="col">
+                                        <label class="form-label text-nowrap">Confirm Password</label>
+                                        <input id="confirmPassword" type="password" class="form-control form-control-sm"
+                                            placeholder="Confirm your password">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label class="form-label">Gender</label>
+                                        <div class="d-flex align-items-center">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="gender" value="Male"
+                                                    checked>
+                                                <label class="form-check-label">Male</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="gender"
+                                                    value="Female">
+                                                <label class="form-check-label">Female</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="gender"
+                                                    value="Other">
+                                                <label class="form-check-label">Other</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="gender"
+                                                    value="Prefer not to say">
+                                                <label class="form-check-label">Prefer not to say</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-grid gap-2 mt-3">
+                                    <button class="btn1" type="submit">Get Started</button>
+                                </div>
+                                <div class="text-center mt-2">
+                                    <p class="haveanacc">Have an account?<a href="login javascript.html"><span
+                                                class="signinbutton">Sign In</span></a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            document.getElementById('registrationForm').addEventListener('submit', validateForm);
+
+            function allowLettersOnly(elementId) {
+                const element = document.getElementById(elementId);
+                if (element) {
+                    element.addEventListener('input', function () {
+                        this.value = this.value.replace(/[^a-zA-Z\s]/g, '');
+                    });
+                }
+            }
+            allowLettersOnly('fullName');
+            allowLettersOnly('city');
+            allowLettersOnly('country');
+
+            const phoneInput = document.getElementById('phone');
+            if (phoneInput) {
+                phoneInput.addEventListener('input', function () {
+                    this.value = this.value.replace(/[^0-9]/g, '');
+
+                });
+            }
+        });
+
+        async function validateForm(event) {
+            event.preventDefault();
+
+            const fullName = document.getElementById('fullName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const countryCode = document.getElementById('countryCode').textContent.trim();
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            const city = document.getElementById('city').value.trim();
+            const country = document.getElementById('country').value.trim();
+            const position = document.getElementById('position').value;
+            const genderElement = document.querySelector('input[name="gender"]:checked');
+
+            if (!fullName || !email || !phone || !position || !country || !city || !password || !confirmPassword || !genderElement) {
+                return alert('Please fill out all fields.');
+            }
+
+            const gender = genderElement.value;
+            const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[#?!@$%^&*-]).{5,}$/;
+
+            if (password !== confirmPassword) {
+                return alert('Passwords do not match.');
+            }
+
+            if (!passwordRegex.test(password)) {
+                return alert('Password must be at least 5 characters and include uppercase, lowercase, a number, and a special character.');
+            }
+
+
+            const patientData = {
+                FullName: fullName,
+                Position: position,
+                Email: email,
+                Phone_no: countryCode + phone,
+                Country: country,
+                City: city,
+                EPassword: password,
+                Confirm_EPassword: confirmPassword,
+                Gender: gender
+            };
+
+            console.log("Submitting data:", patientData);
+
+            try {
+
+                const response = await fetch('http://localhost:5000/api/patientdetails', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(patientData),
+                });
+                const result = await response.json();
+                if (response.ok) {
+                    alert('Registration successful! ✅');
+                    document.getElementById('registrationForm').reset();
+                } else {
+
+                    alert('Registration failed: ' + result.message);
+                }
+            } catch (error) {
+                alert('An error occurred. Could not connect to the server.');
+            }
+        }
+    </script>
+</body>
+
+</html>
